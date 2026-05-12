@@ -9,6 +9,21 @@ alert("RESULTADOS TERRENO:" +
       "Área : " + area +
       "Perímetro : " + perimetro);
 
+// Solicitar la primera nota al usuario
+let nota1 = Number(prompt("Ingrese la primera nota:"));
+
+// Solicitar la segunda nota al usuario
+let nota2 = Number(prompt("Ingrese la segunda nota:"));
+
+// Solicitar la tercera nota al usuario
+let nota3 = Number(prompt("Ingrese la tercera nota:"));
+
+// Calcular el promedio de las tres notas
+let promedio = (nota1 + nota2 + nota3) / 3;
+
+// Mostrar el resultado final en una ventana emergente
+alert("PROMEDIO DEL ESTUDIANTE: " + promedio);
+
 // Contador inicial
 let visitas = 100;
 
